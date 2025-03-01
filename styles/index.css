@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+
+.header-img {
+    width: 100%;
+}
+
+.href {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    flex-direction: column;
+    position: relative;
+    transition: width 0.5s ease;
+}
+
+
+
+.href1 {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    margin-left: 165px;
+    margin-right: 538px;
+    font-weight: bold;
+    width: 192px;
+    height: 32px;
+    font-size: 30px;
+
+
+}
+
+.href:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    background-color: red;
+
+    text-align: center;
+    left: 0;
+    bottom: 0;
+}
+
+.href:hover:after {
+    width: 100%;
+
+}
+
+.nav-ul {
+    position: absolute;
+    top: 65px;
+    display: flex;
+}
+
+.nav-li {
+    list-style: none;
+    flex-direction: column;
+
+
+}
+
+.header-h1 {
+
+
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+    font-size: 72px;
+    margin-top: 15px;
+    margin-left: 30px;
+
+
+
+}
+
+.header-span {
+    border: solid 1px white;
+    width: 650px;
+    height: 278px;
+    position: absolute;
+    top: 266px;
+    margin-left: 165px;
+
+
+}
+
+
+/* main-qism */
+
+
+.main-div{
+    border: solid none;
+    height: 500px;
+    position: relative;
+}
+
+
+.main-img{
+    margin-left: 164px;
+
+}
+
+.main-h2{
+   
+    width: 455px;
+    height: 96px;
+    font-size: 48px;
+    font-weight: 300;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 25px;
+    margin-top: 96px;
+    margin-left: 150px;
+    line-height: 48px;
+
+}
+
+.main-p{
+    width: 455px;
+    height: 100px;
+    margin-left: 96px;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.main-text{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: 541px;
+    height: 317px;
+    background-color: white;
+}
+
+.main-div{
+    margin-top: 260px;
+    margin-bottom: 190px;
+}
+
+.head{
+    display: flex;
+}
+
+.head-h2{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+}
+
+.head-href{
+    border: solid 1px black;
+    width: 157px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 14px;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 612px;
+}
+
+.head{
+    margin-left: 164px;
+    align-items:center ;
+}
+
+.world{
+   
+    margin-left: 165px;
+}
+
+.images{
+    margin-top: 80px;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.world-text{
+    position: absolute;
+    bottom: 10px;
+  
+    
+}
